@@ -3,28 +3,27 @@ const skills = [
   'React', 'Flask', 'Node.js', 'Express', 'Docker', 'AWS', 'Git',
 ];
 
-// TODO: replace each `github` URL with the real repo link
 const projects = [
   {
     title: 'Secure Password Manager',
     tags: ['Python', 'Cryptography', 'CLI'],
     type: 'Security',
     desc: 'Encrypted password management system using Fernet symmetric encryption and PBKDF2 key derivation. Includes a password strength analyzer with entropy scoring.',
-    github: 'https://github.com/csliney8',
+    github: 'https://github.com/csliney8/password_project',
   },
   {
     title: 'Flask Blackjack',
     tags: ['Python', 'Flask', 'HTML/CSS/JS'],
     type: 'Full Stack',
     desc: 'Multi-class OOP game engine with a REST API backend and casino-themed frontend. Uses async fetch calls for live game state updates without page reloads.',
-    github: 'https://github.com/csliney8',
+    github: 'https://github.com/csliney8/udpvideogame',
   },
   {
     title: 'League Management System',
     tags: ['C++', 'SQLite', 'CLI'],
     type: 'Systems',
     desc: 'Command-line application using the raw SQLite3 C API to manage soccer leagues. Features automated round-robin scheduling, standings tracking, and payment management.',
-    github: 'https://github.com/csliney8',
+    github: 'https://github.com/csliney8/league-management-system',
   },
 ];
 
