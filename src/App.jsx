@@ -40,6 +40,14 @@ function Navbar() {
         ) : (
           <Link to="/" className="nav-link">Back to Portfolio</Link>
         )}
+        <a
+          href="/caden-portfolio/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-link"
+        >
+          Resume
+        </a>
         <Link to="/blog" className="nav-link accent">Blog</Link>
       </div>
     </nav>
